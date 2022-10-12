@@ -42,7 +42,7 @@ The public and private key are never stored within the binary (at least they sho
 
 ### Intended Use Diagram
 
-It is recommended to include some form of anti-sandbox techniques to determine if your binary is being analyzed\reverse-engineered in order to withhold the private key being retrieved from the server.
+It is recommended to include some form of anti-sandbox techniques to determine if your binary is being analyzed\reverse-engineered in order to withhold the key being retrieved from the server.
 
 ![](Images/Janus%20Intended%20Use.png)
 
