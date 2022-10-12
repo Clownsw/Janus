@@ -1,3 +1,7 @@
+## Update:
+
+Yes, you can use this for asymmetric and symmetric encryption. You don't have to use the OpenSSL library, I used OpenSSL and RSA out of preference. The function you will focus on modifying if you want to implemnt your own obfuscation within Janus is "ScrambleA"
+
 # Janus
 
 Janus is a pre-build event that performs string obfuscation during compile time. This project is based off the CIA's [Marble Framework](https://wikileaks.org/ciav7p1/cms/space_15204359.html).
