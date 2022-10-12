@@ -75,8 +75,7 @@ https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-
 ## Improvements
 
 * Replace OpenSSL with wolfSSL (this will significantly decrease the final size of the binary)
-* Add different encoding methods
-* Implement EVP to avoid byte limit 
+* Add different encryption\encoding methods 
 * Add detection for comments (comments should be ignored in the future)
 * Add Unicode support
 * Add receipt and validator (will be added soon hopefully)  
