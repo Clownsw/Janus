@@ -1,6 +1,6 @@
 ## Update:
 
-Yes, you can use this for asymmetric and symmetric encryption. You don't have to use the OpenSSL library, I used OpenSSL and RSA out of preference. The function you will need to modify if you want to implemnt your own obfuscation within Janus is "ScrambleA"
+Yes, you can use this for asymmetric and symmetric encryption. You don't have to use the OpenSSL library, I used OpenSSL and RSA out of preference. The primary function you will need to modify if you want to implemnt your own obfuscation within Janus is "ScrambleA"
 
 # Janus
 
