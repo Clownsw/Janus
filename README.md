@@ -78,7 +78,8 @@ https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-
 * Add different encryption\encoding methods 
 * Add detection for comments (comments should be ignored in the future)
 * Add Unicode support
-* Add receipt and validator (will be added soon hopefully)  
+* Add receipt and validator (will be added soon hopefully) 
+* Add the ability to encrypt\obfuscate resources
 
 ## Conclusion
 
