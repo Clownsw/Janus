@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/91508682/195268950-83ce5e35-b138-40e7-
 
 https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-b93e-9f9029249a2c.mp4
 
-## Improvements
+# Improvements
 
 * Replace OpenSSL with wolfSSL (this will significantly decrease the final size of the binary)
 * Add different encryption\encoding methods 
@@ -81,7 +81,7 @@ https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-
 * Add receipt and validator (will be added soon hopefully) 
 * Add the ability to encrypt\obfuscate resources
 
-## Conclusion
+# Conclusion
 
 If you found anything of value from this, feel free to share this project, I would greatly appreciate it.
 
