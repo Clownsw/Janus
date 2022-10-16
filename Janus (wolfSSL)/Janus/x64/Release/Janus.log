@@ -1,0 +1,13 @@
+﻿  IScramble.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+  Janus.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+E:\VS\VS Repos\Janus (wolfSSL)\Janus\Janus.cpp(21,2): warning C4091: 'static ': ignored on left of 'StringType' when no variable is declared
+E:\VS\VS Repos\Janus (wolfSSL)\Janus\Janus.cpp(303,60): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+E:\VS\VS Repos\Janus (wolfSSL)\Janus\Janus.cpp(385,33): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+E:\VS\VS Repos\Janus (wolfSSL)\Janus\Janus.cpp(662,48): warning C4244: '=': conversion from 'std::streamoff' to 'DWORD', possible loss of data
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1250 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Janus.vcxproj -> E:\VS\VS Repos\Janus (wolfSSL)\x64\Release\Janus.exe

@@ -1,0 +1,36 @@
+﻿  
+  
+  [+] wolfSSL_PEM_read_bio_RSA_PUBKEY was successful (public key)
+  [+] Obfuscating contents of E:\VS\VS Repos\JanusTester (wolfSSL)\
+  [+] Processing File: E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Program.cpp
+  [+] Scrambling Line 8
+  [+] Original: Drake
+  [+] Length: 5
+  [+] Base64: I3Yr6LQzjsMsFV8SO/x9bQXgC43KRacLrKxM5YzzadEe6oMrsfX9eD017WgnR0UyHlbEmXcdARK9/WxqSdn8sA2s0117dDEsmkJYp8QuQ/itTXBejs06cA58LK3s7m46SvYWXJox3QWPNonepbRyZ8M270RPjnwSKpLkzRLTBh98RQ4QehFjF8yZMlSIV33HS8MMP29P0feKo1xyHiunlndrsBH+iGkMjAoFJYy0P0m8A1+vjvOHFwRl+JV2JSG4kHHr/F4nfmDCXAqgvHpsl5XHPp7+uA2j2pMIXbeF+bwbxxeH0XM8nG8yCr5jYy2UtJfZExlf9dxesMsBw2prig==
+  [+] Scrambling Line 7
+  [+] Original: The Remorse
+  [+] Length: 11
+  [+] Base64: u24EH1l0Yv7Z5/jxNz+ync2Pkk5lDurwBBGgtKhoiaWKJHVjnj9rzdBXXKu+ptll4dSoOpGRK1XPd4IxJGwp16fSJZV5PImB1Ptt/UnlYJhkjuKbipa9pHmN/MZHsswleJKfwmcsTNAXkUVh9ekNB+gEk2kQzwObIARPvWJQGA3FUIXT5LPSUN0XfhG4ooVOvSyTHh53lc+utjgo2KJAx/vyqaTcTOdlK67YDkdCf6f5E86Hu0Li1LSVbCPivx1Ui717zXpRkornQiuxRMOog5Pv/L48WIT6Mm10JKrYP83I+DQ5y4MVoIM9T0jTPHDHUxE6vRJxNCg8IcvzZI545g==
+  [+] Successfully modified
+  [+] Processing File: E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Test.cpp
+  [+] Scrambling Line 9
+  [+] Original: test
+  [+] Length: 4
+  [+] Base64: oy7F95bodU7uvD/9IzYLXXsSxY6xszlhOO4OmPJ5Kmn24k5sTmAQzdDnLHVNqkhp2nneNe1/e2FXdI3PeXsThF9CqrkYET4KE6aBNbQ9QnHjtxKvLIY4NjY9Jb8UzRCuEPUNrxjcvilMJNR8uz22IZCZJ0S4VdKZHm9z1cF9HtbKmv4LPMFzZkIkuwx4k9nFgf3YYAiS0Vh5NIwRKeUrwbW3wDOxbI9Y6AyBU5Mprbk+cMBR69Fz3HrxewPpOFX4hJ9ejnGFuay77NiSC8B/Q0X6f7tuxFA67++b2kW7RYVJcqg/uSHiasE12QE7tHtJBZBR/Xo13EreGHsUCSmvmg==
+  [+] Successfully modified
+  
+  
+  Janus.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Janus.cpp(62,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Program.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+  Test.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+  Generating Code...
+  JanusTester.vcxproj -> E:\VS\VS Repos\JanusTester (wolfSSL)\x64\Debug\JanusTester.exe
+  [+] Attempting to restore files in E:\VS\VS Repos\JanusTester (wolfSSL)\
+  [+] Restoring File: E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Program.cp
+  [+] Successful restoration
+  [+] Restoring File: E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Test.cp
+  [+] Successful restoration
