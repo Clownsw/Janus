@@ -1,0 +1,82 @@
+﻿  crl.c
+  internal.c
+  wolfio.c
+E:\wolfssl-5.4.0-stable\src\wolfio.c(524,50): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+  keys.c
+  ocsp.c
+  ssl.c
+  tls.c
+  tls13.c
+  aes.c
+  arc4.c
+  asn.c
+  blake2b.c
+  blake2s.c
+  camellia.c
+  chacha.c
+  chacha20_poly1305.c
+  cmac.c
+  coding.c
+  curve25519.c
+  curve448.c
+  Generating Code...
+E:\wolfssl-5.4.0-stable\src\pk.c(3479): warning C4701: potentially uninitialized local variable 'encSz' used
+E:\wolfssl-5.4.0-stable\src\pk.c(3635): warning C4701: potentially uninitialized local variable 'verLen' used
+E:\wolfssl-5.4.0-stable\src\pk.c(3494): warning C4701: potentially uninitialized local variable 'signSz' used
+E:\wolfssl-5.4.0-stable\src\pk.c(3749): warning C4701: potentially uninitialized local variable 'pad_type' used
+E:\wolfssl-5.4.0-stable\src\wolfio.c(489): warning C4701: potentially uninitialized local variable 'peerSz' used
+  Compiling...
+  cpuid.c
+  des3.c
+  dh.c
+  dsa.c
+  ecc.c
+  ed25519.c
+  ed448.c
+  error.c
+  fe_448.c
+  fe_low_mem.c
+  fe_operations.c
+  ge_448.c
+  ge_low_mem.c
+  ge_operations.c
+  hash.c
+  hmac.c
+  integer.c
+  kdf.c
+  logging.c
+  md2.c
+  Generating Code...
+  Compiling...
+  md4.c
+  md5.c
+  memory.c
+  pkcs7.c
+  pkcs12.c
+  poly1305.c
+  pwdbased.c
+  random.c
+  rc2.c
+  ripemd.c
+  rsa.c
+  sha.c
+  sha256.c
+  sha3.c
+  sha512.c
+  signature.c
+  sp_c32.c
+  sp_c64.c
+  sp_int.c
+  sp_x86_64.c
+  Generating Code...
+  Compiling...
+  srp.c
+  tfm.c
+  wc_encrypt.c
+  wc_pkcs11.c
+  wc_port.c
+  wolfmath.c
+  wolfevent.c
+  Generating Code...
+     Creating library E:\wolfssl-5.4.0-stable\wrapper\CSharp\DLL Debug\x64\wolfssl.lib and object E:\wolfssl-5.4.0-stable\wrapper\CSharp\DLL Debug\x64\wolfssl.exp
+  wolfssl.vcxproj -> E:\wolfssl-5.4.0-stable\wrapper\CSharp\DLL Debug\x64\wolfssl.dll
