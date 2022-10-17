@@ -6,20 +6,23 @@
   [+] Scrambling Line 8
   [+] Original: Drake
   [+] Length: 5
-  [+] Base64: w+fYhatnXGHq1oXUJxZyY0LnVVX5cq4M7BXqv5Ax5VfRE1TEvK6ip+zZFLGbSG7hfTB+AVg04yjn2fCbDbH1bZZ5nkmG884NfzBWQilNWDcqS4YF2aPbWklA8xPAbazdCz11J46Mtg2yDecsT1lqLc4MH38FbLH+LNjQWRhq7M9KWHmM4mmmvpiMMqZbmTIMsRJMQEKThJHImFUlRC6bKCEwYuyP1Zt7MJmf9XOUPjwQdsuJHCBkdEHRxCOKcGkiELmKemKJFSahV9rl1cF5G51+ADmpHmiHm1ikjvKfTYKqg9TnFyebsFOMEeMcAjjXwxTnwbefSUMldbZaNIJo7A==
+  [+] Base64: piX8yqoAZJQhiBzSutguT736yEARja7R3BOXZNKVVEG6ei2l7CSHiJg3BXiuAYZgXvvPv7nAwnyx+IHQdAKwQjrs0dvhqcZGGV8RMxBpNwAH981ViAC9uFk5dDhe8IgBNxK2XE1pypiMv/VBm8oxKikhhBV0keortUx6w3mNzh8kdPxOaltpxZ1k5/OWpQw+R3xQu89s0LeJ5KpNfDXnBSIzzcs+BjgAfz7ujy6ujn+iRMdWo2iIvBBpYDPEF4jhCUHHtQG+Z1AgNNXOCUGzZ3fv+XkfQ/FKsBkvbe0MMnGfr3JUMXpAyS/LBiBknCCPiTW/8ZFuoANGZJJcbOgtLA==
   [+] Scrambling Line 7
   [+] Original: The Remorse
   [+] Length: 11
-  [+] Base64: ypUkh6ZJLmMKpXL3vxWgfZlM6fUeHtwTcaZJiAEJHomjSl9HL3dxdeD2VeTIg0SFUU2b5L7iQkXeNLrfkev3eovJTxrW9Ugm/LOIq0oBYo6Izh+0alBHzPfYpFLbw147okCrQgBgLvLKTLmnEjysSR+ZTR0yQh3fc7YoC/l1G530JGqiOX12vPDrRnKBYnt4hQ/OEBjwSdILRoQDUeRK08/iLqo5F/3W+SUtwS2bzKAzDpE25M7Zq8zJyL7qGjHfDH5ZJh8Ly0aRazOr3Wy/DNSeN8H/FrzIaBsTw1FeEFAcnmeEefcyVDrbUV7PEA/kvKwq8YmUtbB8DwCBQTl8zQ==
+  [+] Base64: uiaBhMHJ4dTzuMIRFg3Y2zmVLitOJKJMJahulqOW4ggriPL9l3LANp0nb30lHHctt9qnbX6Fb0x0bZsisEFMgKsDWIMjzzFikVtMvmsbxLTuj7Tszo1FL84rXbIiqSKit2o1W7ahY4+yyzB0KV5S10xFSC4YmvRzbP2UVnmU0aVE4s1A3S7SlPubu5Lr2ZkWGLQjaqir7IP+MCbB7E/5p2wOGKDLLAoMSRioFM7QhRsCSNlvaUKoND1LOAhgwA/qZuy4nZz79EkMHLcDGL4mdhucSdPvVM86LINBwlIif6JTARRfQ8XMOu7agXfOk4eeRBfynfqdaeA3Kk1gB+Lwew==
   [+] Successfully modified
   [+] Processing File: E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Test.cpp
   [+] Scrambling Line 9
   [+] Original: test
   [+] Length: 4
-  [+] Base64: YCTdeTTonF9p8oMEZw0qo+/76XW1KTImGDuUe7m1Tv5Xc/RxNE6+z5aP8Bi0Z/Ad/CCmmZjf7yMNxo0Bl5Zf60jfFbBdXJ+O0JBmcLcpGQVjXzjqCHVy+mpV9fSUwNreregfEnJvk0YtUOiYVq6b8gCTjZ/YQJvpkmOrIB1I3CaIvtM0Ut6J9sZ0tjavYmUjGCoUO6n9JfTMsAYQY2mhEXgJOjNQ4kvMNiyMHDnbHzEDBINcm2BfZmoItXxGS2GPR9ftUCo1F6JdlRAA6j7RubXa0Omy/zeHqju7Cu0WZRlCv6DD7g6zJ8UGJjJMC0gCXl5leRnLjjqU4biite2yRg==
+  [+] Base64: eZkzvHJ7qtlOaos3hPNWBMi+wR7hWmj6AnRwLoaqNsXjHQ3pK/N0hep1tFE9J6STH1mmbpNGF6vbuVU29EKRur5y0cHYAb+PZ3F5+/b4u7W5EF2WLTQNhn/6l74gKwGkxBo5eyYBC/rUmUpu1BMlgXVv/mPhTjHbvFU6EnBS6qdQ7a42BZLRSjR559Uz15Ckp4O97m1QfuEe+oLBgp6hZ77ruNFXeUfrBfsvttffXAF4QiM0706hMn6h+Eud/1kq1Kr5rLySFTA3ymA1T3x7dDLfzjmbJwyobyBj+CA34AF9IFW/KYYBAZLQQFe4Mqwi7nhYeTMmS95aXPtqyMiOZA==
   [+] Successfully modified
   
   
+  Janus.cpp
+  Warning: For timing resistance / side-channel attack prevention consider using harden options
+E:\VS\VS Repos\JanusTester (wolfSSL)\JanusTester\Janus.cpp(63,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Program.cpp
   Warning: For timing resistance / side-channel attack prevention consider using harden options
   Test.cpp

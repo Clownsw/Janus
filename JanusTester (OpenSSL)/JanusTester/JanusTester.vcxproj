@@ -112,18 +112,18 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\OpenSSL\Lib\x64\Debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)\lib\libcrypto.lib;$(SolutionDir)\lib\libssl.lib;ws2_32.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)\OpenSSL\Lib\x64\Debug\lib\libcrypto.lib;$(SolutionDir)\OpenSSL\Lib\x64\Debug\lib\libssl.lib;ws2_32.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>CALL "$(SolutionDir)\Janus.exe" "$(SolutionDir)\"</Command>
+      <Command>CALL "$(SolutionDir)\Janus\Debug\x64\Janus.exe" "$(SolutionDir)\"</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>CALL "$(SolutionDir)\Elyashib.exe" "$(SolutionDir)\"</Command>
+      <Command>CALL "$(SolutionDir)\Elyashib\Debug\x64\Elyashib.exe" "$(SolutionDir)\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -134,13 +134,21 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\OpenSSL\Lib\x64\Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)\OpenSSL\Lib\x64\Release\lib\libcrypto.lib;$(SolutionDir)\OpenSSL\Lib\x64\Release\lib\libssl.lib;ws2_32.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>CALL "$(SolutionDir)\Janus\Release\x64\Janus.exe" "$(SolutionDir)\"</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>CALL "$(SolutionDir)\Elyashib\Release\x64\Elyashib.exe" "$(SolutionDir)\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,12 +2,19 @@
 
 unsigned char* decrypted = NULL;
 
-unsigned char* decode64(const char* input, int length) {
-	const auto pl = 3 * length / 4;
-	auto output = reinterpret_cast<unsigned char*>(calloc(pl + 1, 1));
-	const auto ol = EVP_DecodeBlock(output, reinterpret_cast<const unsigned char*>(input), length);
-	if (pl != ol) { std::cerr << "[!] Whoops, decode predicted " << pl << " but we got " << ol << "\n"; }
-	return output;
+unsigned char* unbase64(const char* input, int length) {
+	BIO* bmem, * b64;
+
+	unsigned char* buffer = (unsigned char*)calloc(length + 1, 1);
+
+	b64 = BIO_new(BIO_f_base64());
+	BIO_set_flags(b64, BIO_FLAGS_BASE64_NO_NL);
+	bmem = BIO_new_mem_buf(input, length);
+	bmem = BIO_push(b64, bmem);
+	BIO_read(bmem, buffer, length);
+	BIO_free_all(bmem);
+
+	return buffer;
 }
 
 CHAR* Deobfuscate(char* cBuffer) {
@@ -52,7 +59,7 @@ CHAR* Deobfuscate(char* cBuffer) {
 	}
 	BIO_free(privBio);
 
-	unsigned char* unB64 = decode64(cBuffer, strlen(cBuffer));
+	unsigned char* unB64 = unbase64(cBuffer, strlen(cBuffer));
 
 	decrypted = (unsigned char*)calloc(RSA_size(privKey) + 1, 1);
 	int decrypted_length = RSA_private_decrypt(RSA_size(privKey), unB64, decrypted, privKey, RSA_PKCS1_OAEP_PADDING);

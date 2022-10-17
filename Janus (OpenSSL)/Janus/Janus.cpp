@@ -791,7 +791,7 @@ int wmain(int argc, wchar_t* argv[]) {
 reset:
 	iRet = -1;
 	//Call post-build to clean up mistakes
-	wprintf(L"[!] Failure in Obfuscating Strings, Restoring Files");
+	wprintf(L"[!] Failure in Obfuscating Strings, Restoring Files\n");
 
 nostrings:
 	{

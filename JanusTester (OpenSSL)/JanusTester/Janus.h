@@ -10,6 +10,6 @@ typedef char JANUS;
 
 extern unsigned char* decrypted;
 
-unsigned char* decode64(const char* input, int length);
+unsigned char* unbase64(const char* input, int length); 
 
 CHAR* Deobfuscate(char* cBuffer);

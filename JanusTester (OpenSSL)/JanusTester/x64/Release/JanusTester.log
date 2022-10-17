@@ -1,0 +1,37 @@
+﻿  
+  
+  [+] PEM_read_bio_RSA_PUBKEY was successful (public key)
+  [+] Obfuscating contents of E:\VS\VS Repos\JanusTester\
+  [+] Processing File: E:\VS\VS Repos\JanusTester\JanusTester\Program.cpp
+  [+] Scrambling Line 6
+  [+] Original: Rxseboy
+  [+] Length: 7
+  [+] Base64: GFPrwTuPfI7F8TfHlZJ/6F/KWMgNJuQX8vmy9jwkkM7cK7DxWnW5UsSTJabahHQUyNaj4kaM9fw8zvqVGvi26yk/gtj2HJbgxDpLDSIEBmaZHmb4ytnfQS0GJRvEhwFgrh4tcDQ4DOyapjR6RFHaItLLy3ybqhXMMzPmbxcO4Ob2s/VUHNjaytSTzqdJ7zb4+zjBA+8we1ZL2R70pozUPslwscZifynt2rSqv8NSDklwsmb3TNWAxZBQcTlx+Wvraca4GThDXrCa7TXmkXF9uENz44dX83sNU8yzYTniaunaQKrDnfOQQl3+zPMCyLwSNsi/MMrJrhhmbD3q14tGTw==
+  [+] Scrambling Line 5
+  [+] Original: i trust u
+  [+] Length: 9
+  [+] Base64: uISbQmZkpZxgV8PZOPkWKireciiS76DmDxPCvye3Gdpqqg3XUocu315cBCu+kwJRLdKDF3URtzmwK5YFuR1n2f+4BCzQ1gIAAecBPb+JFeVKmHpFH1vQ6ECn/RmQ7uZkE5yjHVg5Aqnp+KxfCEbpVK6OKKvBHTGtxWsMTmGDQGas328fjz/xjjJLHj9uTGnjyc+cEKAkvnV87ztlP6iNhyF7jjbZ+97K7+fIQHDtCSWNpLSCyhVDEX7RCCKwSjTbtfZ6Wc6Z64KnZx1c/MUebMWdyTbFCrWZFzTlSFTz+FiApLzsLdECL4bZ1mYLfK16Hu8wEMZGaaOaZHjz0GnOqQ==
+  [+] Successfully modified
+  [+] Processing File: E:\VS\VS Repos\JanusTester\JanusTester\Test.cpp
+  [+] Scrambling Line 9
+  [+] Original: test
+  [+] Length: 4
+  [+] Base64: XBEDXIGjPr0WWhTVG18I8mVDrNAM/hfQ0YD4XW548V7/sZ76MlKxJDAatpBX4sNU2JXB96N4SS4KT/VqRfS1v4kpAneQZZmE7Bp9EmfH6Y+3hmSwGsV7K4IzFu3pKPGKamfJZSml/bY9gDHMZuJQrHadVzUXH/a6AlIekYnBxf564Dj/SwYu52UVdxErwmTJRsUFLy3HsHlbLpsi71hxhZ6ihiC1aOW+P2tE5ykZo5thGMv6ExF+xzKIMx31V/MJPR6DBbsvtpXF30HMrrC0LQaP2FN3vusvDqboECdfSuZPfvmwrEOJmgm7NWgeuLsSdbOUiC/LsZmkhVJyh6hVHA==
+  [+] Successfully modified
+  
+  
+  Janus.cpp
+E:\VS\VS Repos\JanusTester\JanusTester\Janus.cpp(62,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Program.cpp
+  Test.cpp
+  Generating code
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  JanusTester.vcxproj -> E:\VS\VS Repos\JanusTester\x64\Release\JanusTester.exe
+  [+] Attempting to restore files in E:\VS\VS Repos\JanusTester\
+  [+] Restoring File: E:\VS\VS Repos\JanusTester\JanusTester\Program.cp
+  [+] Successful restoration
+  [+] Restoring File: E:\VS\VS Repos\JanusTester\JanusTester\Test.cp
+  [+] Successful restoration

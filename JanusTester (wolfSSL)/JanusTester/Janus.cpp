@@ -8,6 +8,7 @@ unsigned char* unbase64(char* input, int length) {
 	unsigned char* buffer = (unsigned char*)calloc(length + 1, 1);
 
 	b64 = wolfSSL_BIO_new(wolfSSL_BIO_f_base64());
+	wolfSSL_BIO_set_flags(b64, WOLFSSL_BIO_FLAG_BASE64_NO_NL);
 	bmem = wolfSSL_BIO_new_mem_buf(input, length);
 	bmem = wolfSSL_BIO_push(b64, bmem);
 

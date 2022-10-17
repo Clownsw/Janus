@@ -12,7 +12,7 @@ int wmain(int argc, wchar_t* argv[]) {
 
 	//Validate Args
 	if (__argc < 2) {
-		wprintf(L"[!} USAGE: $(SolutionDir)");
+		wprintf(L"[!] USAGE: $(SolutionDir)");
 		return iRet;
 	}
 

@@ -20,11 +20,23 @@ int IScramble::ScrambleA(unsigned char* cToScramble, unsigned int iNumOfChars) {
 }
 
 char* IScramble::base64(const unsigned char* input, int length) {
-	const auto pl = 4 * ((length + 2) / 3);
-	auto output = reinterpret_cast<char*>(calloc(pl + 1, 1));
-	const auto ol = EVP_EncodeBlock(reinterpret_cast<unsigned char*>(output), input, length);
-	if (pl != ol) { std::cerr << "Whoops, encode predicted " << pl << " but we got " << ol << "\n"; }
-	return output;
+	BIO* bmem, * b64;
+	BUF_MEM* bptr;
+
+	b64 = BIO_new(BIO_f_base64());
+	BIO_set_flags(b64, BIO_FLAGS_BASE64_NO_NL);
+	bmem = BIO_new(BIO_s_mem());
+	b64 = BIO_push(b64, bmem);
+	BIO_write(b64, input, length);
+	BIO_flush(b64);
+	BIO_get_mem_ptr(b64, &bptr);
+
+	char* buff = (char*)calloc(bptr->length + 1, 1);
+	memcpy(buff, bptr->data, bptr->length);
+
+	BIO_free_all(b64);
+
+	return buff;
 }
 
 int IScramble::GenerateInsertA(char* cVarName, char* cStringLiteral, unsigned int iNumOfChars, char*& cInsert) {
