@@ -72,6 +72,16 @@ https://user-images.githubusercontent.com/91508682/195268950-83ce5e35-b138-40e7-
 
 https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-b93e-9f9029249a2c.mp4
 
+# Limitations
+
+* Supports string literals and arrays
+* Use square braces([ ]) not pointers ( * )
+* All source files must be ANSI, UTF-8, or Unicode
+* No support for \U, \u or \ooo (octals) in string literals 
+* When specifying \x or 0x
+  * Followed by two characters
+* Sting literals cannot be multiple lines
+
 # Improvements
 
 * Make deobfuscation function inline
