@@ -24,8 +24,6 @@ The public and private key are never stored within the binary (at least they sho
 
 **Janus currently only supports CHAR data type. (No WCHAR or UNICODE support)**
 
-**I will make a YouTube video discussing Janus, Vault 7, and Joshua Schulte next week and will update this README.md with the link. If you are interested in that, make sure to come back and check in if you want to see the video.**
-
 # Terminology 
 
 **Janus:** Janus is the utility that does the encryption, encoding, and altering of source files. Janus scans the project folder looking for any files that contain source, looking for strings and data to scramble. Janus keeps a clean copy of the original source and replaces it with the scrambled versions of strings/data. The source should compile after Janus modifies source.
