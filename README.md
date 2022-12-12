@@ -88,11 +88,3 @@ https://user-images.githubusercontent.com/91508682/195269479-c499b4a2-9280-4e5b-
 * Add Unicode support
 * Add receipt and validator (will be added soon hopefully) 
 * Add the ability to encrypt\obfuscate resources
-
-# Conclusion
-
-If you found anything of value from this, feel free to share this project, I would greatly appreciate it.
-
-If you have any questions you can add me on Discord: Default#9365
-
-You can donate to my BTC wallet here: 34WFzRRRvscorHsVnLX656rGK4DBWqRKyi
