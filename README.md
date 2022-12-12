@@ -1,6 +1,6 @@
-## Update:
+## Notice:
 
-Yes, you can use Janus with asymmetric or symmetric encryption. You don't have to use the [OpenSSL library](https://github.com/openssl/openssl) or [wolfSSL library](https://github.com/wolfSSL/wolfssl), I used OpenSSL, wolfSSL, and RSA out of familiarity. The primary function you will need to modify if you want to implement your own obfuscation method within Janus is "ScrambleA". You will have to make modifications to Janus.cpp and Janus.h (located in the JanusTester project) if you want to use your own deobfuscation method.
+Yes, you can use Janus with asymmetric or symmetric encryption. You don't have to use the [OpenSSL library](https://github.com/openssl/openssl) or [wolfSSL library](https://github.com/wolfSSL/wolfssl). I used OpenSSL, wolfSSL, and RSA out of familiarity. The primary function you will need to modify if you want to implement your own obfuscation method within Janus is "ScrambleA". You will have to make modifications to Janus.cpp and Janus.h (located in the JanusTester project) if you want to use your own deobfuscation method.
 
 # Janus
 
